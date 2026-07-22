@@ -4,5 +4,8 @@ __pycache__/
 .venv/
 venv/
 artifacts/
+reports/
+presentation/
+references/
 .DS_Store
 Thumbs.db
