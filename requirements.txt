@@ -1,0 +1,12 @@
+numpy>=1.26,<3
+pandas>=2.2,<3
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+jupyterlab>=4,<5
+pycountry>=24.6
+pycountry-convert>=0.7
+networkx>=3.2,<4
+tqdm>=4.66,<5
+pgmpy==0.1.25
+xgboost>=2,<4
