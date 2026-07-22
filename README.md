@@ -11,9 +11,7 @@ Outcome variables such as pledged amount and backer count are deliberately exclu
 ├── src/train_models.py        # Canonical reproducible pipeline
 ├── data/                      # Local dataset location (CSV is Git-ignored)
 ├── notebooks/                 # Original exploratory Colab notebooks
-├── reports/                   # Written report
-├── presentation/              # Presentation source and export
-└── references/                # Original dataset and Colab links
+└── requirements.txt           # Python dependencies
 ```
 
 ## Setup
@@ -25,7 +23,7 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-The dataset is included at `data/kickstarter_projects.csv`. Its original source link is also recorded in `references/Colab & Dataset Links.pdf`.
+The dataset is included at `data/kickstarter_projects.csv` and was obtained from [OpenDataBay](https://www.opendatabay.com/data/ai-ml/093b364c-9554-4af2-ae9b-eb2fbdaaa588).
 
 ## Run
 
@@ -59,7 +57,3 @@ The canonical pipeline corrects the issues present in the original notebook stat
 - Bayesian discretization, structure learning, and parameter fitting use training data only.
 - Colab-specific uploads are not required.
 - Logistic Regression has a sufficient iteration limit and XGBoost uses current parameters.
-
-## Documents
-
-The PDF presentation contains four more slides than the PowerPoint source. Both original files are retained so no coursework artifact is lost; use the PDF when reviewing the complete submitted presentation.
