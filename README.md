@@ -25,7 +25,7 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-Place `kickstarter_projects.csv` in `data/`. The included local copy is ignored by Git because committing a 49 MB generated/downloaded dataset would unnecessarily enlarge repository history. The original dataset link is recorded in `references/Colab & Dataset Links.pdf`.
+The dataset is included at `data/kickstarter_projects.csv`. Its original source link is also recorded in `references/Colab & Dataset Links.pdf`.
 
 ## Run
 
